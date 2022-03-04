@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.Home_Page1 {
+    width: 100%;
+    height: 100vh;
+}
+
+/*----------- Home1_Page1 - Content -----------*/
+.Home_Page1_content {
+    background-color: #0C77AE;
+    width: 100%;
+    height: 150vh;
+}
+.q {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.Home_Page1_h1 {
+    color: #0C77AE ;
+}
+/*----------- Home1_Page1 - Content End -----------*/
+
+
+/* ---------- Supplier_Form ------------ */
+.Home_Page1_Form {
+    height: 80%;
+    border-radius: 10px;
+}
+.btn {
+    padding: 0;
+    width: 120px;
+    height: 40px;
+    background-color: #CECECE;
+    border-radius: 7px;
+}
+.btn:hover {
+    border: 2px solid #0C77AE;
+    color: white;
+    background-color: #0C77AE;
+}
+.Form_Input {
+    background-color: #D7F3FF;
+    border: none;
+    border-bottom: 2px solid #0C77AE;
+    height: 40px;
+    border-radius:3px;
+}
+.Form_Input:hover {
+    background-color: whitesmoke;
+    border-bottom:2px solid #0C77AE;
+}
+::placeholder {
+    color:gray;
+}
+:hover::-webkit-input-placeholder {
+    color: #0C77AE;
+  }
+.btn-sm {
+    padding: 0;
+    width: 150px;
+    height: 40px;
+    background-color:#0C77AE;
+    color: white;
+    border: none;
+    border-radius: 7px;
+}
+.btn-sm:hover {
+    background-color: #1287c2;
+}
+.error {
+    color: crimson;
+}
+/* ---------- Supplier_Form - End  ------------ */
+
+/* Triangle_Polygon */
+/* .Triangle_Polygon {
+    background-color: #0C77AE;
+    height: 70%;
+    width: 64%;
+    position: relative;
+    left: 18%;
+    clip-path: polygon(51% 25%, 0 0, 100% 0);
+} */
